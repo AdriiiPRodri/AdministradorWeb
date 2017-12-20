@@ -1,0 +1,44 @@
+.body{ background: url('images/fondo.png') #F6F6F6; font-family: 'Droid Sans', Arial,Helvetica Neue,Helvetica,sans-serif;font-size: 12px; font-size: 1.2rem; color:#030303; }
+.contenedor { background-color: #F6F6F6; margin-bottom: 25px; }
+.cabecera { background-color: #CBCBC4; }
+.footer { width: 100%; background: #ddd; border-top: 1px solid #ccc; position: fixed; bottom: 0; }
+
+.slider { border:1px #000000 solid; width: 100%; margin-top: -3px; }
+
+.caja1  { border: 1px #2B567E solid; border-radius: 5px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; margin-top: 15px; margin-bottom: 5px; color: #F6F6F3; background: #3C578F; text-align: center; }
+.caja1:active  {  }
+.caja1:hover  {  }
+.caja2  { background: #CBCBC4; padding: 15px; margin-top: 15px; color: #000; text-align: center; }
+.caja2:active  {  }
+.caja2:hover  {  }
+.caja3  { display: table;
+	text-align: center;
+	list-style: none;
+	vertical-align: middle;
+	padding:15%: }
+.caja4  { display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #3C578F;
+	border: 1px #3C578F solid;
+	border-radius: 5px;
+	padding: 1em:
+	}
+.caja5  { background: #2B467E; border-radius: 4px; border: 1px #3C578F solid; padding-bottom: 10px; padding-top: 10px; text-align: center; color: #F6F6F3; margin-top: 2px; }
+.caja5:active  {  }
+.caja5:hover  {  }
+.caja6  {  }
+.caja6:active  {  }
+.caja6:hover  {  }
+.nousada  {  border: 1px #E8E8E8 solid; border-radius: 5px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; margin-top: 15px; margin-bottom: 5px; color: #000000; text-align: center; background: url('../images/striped.png') #E8E8E8;}
+.nousada:active  {  }
+.nousada:hover  {  }
+.banner1 { margin-top: 15px; margin-bottom: 5px; background: url('../images/striped.png') #E8E8E8; border: 1px #E8E8E8 solid; height: 420px; text-align: center; }
+
+.campo { display: inline-block; padding: 6px 12px; margin-bottom: 5px; margin-top: 5px; font-size: 14px; font-weight: normal; line-height: 1.42857143; background-image: none; border: 1px solid transparent; border-radius: 4px; width: 100%;}
+.envio { bottom: 0px; background: #3C578F; color: #c2c2c2; }
+ 
+ 
+.titulo { color: #F6F6F3; margin-top: 15px; }
+
+.oculta { display: none; background: #979797; margin-top: 2px; padding-top: 5px; padding-bottom: 5px; border-radius: 2px; }

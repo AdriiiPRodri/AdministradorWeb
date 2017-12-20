@@ -1,0 +1,11 @@
+Diseño:
+
+La idea principal de este diseño se quiere ofrecer una gran versatilidad en la modificación y alcanzar el objetivo de convertirse en una página responsive.
+
+Para ello, se ha optado por la división en bloques de todas las páginas. Los bloques contienen solo una parte concreta de la página. Por ejemplo, el archivo menu.php contiene exclusivamente el menú que esta en la cabecera del index.
+
+Cada uno de estos fragmentos se ocupan de alguna funcionalidad concreta y específica, lo que facilita que en caso de cambio por cualquier necesidad la facil modificación de la parte requerida.
+
+Otro punto importante es la adaptación a cualquier tipo de pantalla y que sirva como una pequeña aplicación para móviles. El uso de la herramienta bootstrap se encarga de ello.
+
+Esta es un conjunto de plantillas de archivos css y javascript que modifican levemente el apartado gráfico y crean unas clases muy versatiles para incorporarlas en los documentos que van a mostrar información para que de una forma sencilla los distintos apartados de la página se adapten al pixelaje que tiene cada pantalla

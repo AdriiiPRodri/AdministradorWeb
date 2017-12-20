@@ -1,0 +1,43 @@
+.body{ background-color: #F6F6F6; font-family: 'Droid Sans', Arial,Helvetica Neue,Helvetica,sans-serif;font-size: 12px; font-size: 1.2rem; color:#030303; }
+.contenedor { background-color: #F6F6F6; margin-bottom: 25px; }
+.cabecera { background-color: #CBCBC4; }
+.footer { width: 100%; background: #ddd; border-top: 1px solid #ccc; position: fixed; bottom: 0; }
+
+h1 {  }
+h2 {  }
+h3 {  }
+h4 {  }
+h5 {  }
+h6 {  }
+
+a {  }
+.slider { border:1px #000000 solid; width: 100%; margin-top: -3px; }
+
+.caja1  { border: 1px #3C578F solid; border-radius: 5px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; margin-top: 15px; margin-bottom: 5px; color: #F6F6F3; background: #3C578F; text-align: center; }
+.caja1:active  {  }
+.caja1:hover  {  }
+.caja2  { background: #CBCBC4; padding: 15px; margin-top: 15px; color: #000; text-align: center; }
+.caja2:active  {  }
+.caja2:hover  {  }
+.caja3  {  }
+.caja3:active  {  }
+.caja3:hover  {  }
+.caja4  {  }
+.caja4:active  {  }
+.caja4:hover  {  }
+.caja5  {  }
+.caja5:active  {  }
+.caja5:hover  {  }
+.caja6  {  }
+.caja6:active  {  }
+.caja6:hover  {  }
+.nousada  {  border: 1px #E8E8E8 solid; border-radius: 5px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; margin-top: 15px; margin-bottom: 5px; color: #000000; text-align: center; background: url('../images/striped.png') #E8E8E8;}
+.nousada:active  {  }
+.nousada:hover  {  }
+.banner1 { margin-top: 15px; margin-bottom: 5px; background: url('../images/striped.png') #E8E8E8; border: 1px #E8E8E8 solid; height: 420px; text-align: center; }
+
+li.cabecera {  }
+li.cabecera:active {  }
+li.cabecera:hover {  }
+
+input

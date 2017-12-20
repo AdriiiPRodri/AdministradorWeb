@@ -1,0 +1,49 @@
+﻿Diseño:
+
+La idea principal de este diseño se quiere ofrecer una gran versatilidad en la modificación y alcanzar el objetivo de convertirse en una página responsive.
+
+Debido a este motivo han existido distintos modelos anteriores, de los cuales solo expondré los más caracteristicos.
+
+	->Modelo de lista: El menú principal contenía un deplegable en cada uno de los menús. Fue descartado por ser poco amigable en pantallas táctiles tras varias pruebas.
+
+	->Modelo de los 7 submenús: De este surgió el script que se usó en la versión final.
+
+	->Modelo de todas las opciones en los submenús: Descartado por la imposiblidad de uso en pantallas de resoluciones menores a los 420px.
+
+	->Modelo de modificación de datos desde los submenus: Dscartado por incompatibilidad con el código hecho por Adri. Supuso una mejora de la seguridad.
+
+	->Modelo definitivo: Este ha sido creado tras la corrección de todos los fallos vistos en versiones anteriores. Es el que se explicará a continuación.
+
+Para conseeguir lo mencionado en la primera parte, se ha optado por la división en bloques de todas las páginas. Los bloques contienen solo una parte concreta de la página. Por ejemplo, el archivo menu.php contiene exclusivamente el menú que esta en la cabecera del index.
+
+Cada uno de estos fragmentos se ocupan de alguna funcionalidad concreta y específica, lo que facilita que en caso de cambio por cualquier necesidad la facil modificación de la parte requerida.
+
+Los principales bloques son la Cabecera, el cuerpo y el Footer.
+
+La cabecera carga la primera parte de la propia página. En esta se situan los distintos menus: el del index y el de los usuarios, que dependerá la clase de permisos que tenga la cabecera que le cargará. En todos ellos se permite la desconexión del usuario tanto desde el propio logo del instituto como desde el link situado en el margen superior izquierdo de la pantalla. Otra caracteristica que encontraremos está en la parte derecha superior de la cabecera que nos mostrará el usuario con el que se está logueado.
+
+El menú del index es un menú bajo construcción. El motivo de esto es que los bloques que tienen como clase 'nousada' están pensados para que futuros proyectos para la ampliación de los serivicios del portal con estos mismos.
+
+Los menús de los usuarios, como ya explique anteriormente se dividen según los permisos que estos mismos tienen, diferenciandose en dos:
+
+·Usuario Normal: Este usuario tiene un menú principal que consta de tres partes: 'Nueva incidencia', 'Mis incidencias', 'Mis datos'. Pero además, al clickar sobre 'Mis incidencias' se abrirá un submenú oculto bajo la apariencia principal de la cabecera. Este, al igual que en el usuario administrador está regido bajo un script escrito en javascript que explicaré más adelante. Este submenu tiene una división de las incidencias según su estado, y clickando sobre ellos ya nos dirigiremos hacia la página donde las incidencias puestas por el propio usuario.
+
+·Usuario Administrador:El menú de este usuario es mucho más completo como es lógico. El menú de este usuario se divide en cuatro, que al igual que en 'Mis incidencias' del usuario con permisos normales desplegará un submenú oculto tras la vista principal del propio menú Cada uno por cada  apartado que puede controlar de las gestiones:
+
+	->Gestión de usuarios: Mostrará 'Nuevo usuario', un link para un simple formulario para dicha función; 'Todos los usuarios', que nos llevará a la lista de usuarios existentes actualmente en el sistema; 'Historial', el cual nos conducirá hasta una tabla de accesos y salidas de todos los usuarios; 'Eliminados', que es donde aparecerán los usuarios que ya no están en el sistema.
+
+	->Gestión de incidencias: La primera opción será la creación de una nueva incidencia, el segundo de los enlaces nos mostrará todas las incidencias no corregidas, permitiendo la modificación de estas e incluso cambiarlas de categoría. Los dos siguientes enlaces hacen la misma función que el anterior, pero cambiando el estado de la propia incidencia.
+
+	->Gestión de materiales:Al igual que en los anteriores submenus, la primera opción es la creación de un nuevo elemento, en este caso un material. El siguiente apartado nos mostrará todos los materiales y en el último de los enlaces podremos ver los materiales ordenados por la dependendencia en la que están.
+
+	->Gestión de Departamentos: En este submenú encontraremos la posiblidad de crear dos tipos de elementos distintos, el departamento y la dependencia. Cada uno responde a una de las otros dos elementos, que son el listado de todos los departamentos y dependencias.
+
+El Cuerpo es la parte que más modificación tiene, ya que mostrará todos los datos que tendrán en pantalla los usuarios. La mayor caracteristica es que un mismo documento puede mostrar información distinta según los permisos que tenga el usuario que accede.
+
+El Footer es común en todos, simplemente muestra dos cajas que ocupan cada uno de los dos lados inferiores de la pantalla con una información estática.
+
+Otro punto importante es la adaptación a cualquier tipo de pantalla y que sirva como una pequeña aplicación para móviles. El uso de la herramienta bootstrap se encarga de ello.
+
+Esta es un conjunto de plantillas de archivos css y javascript que modifican levemente el apartado gráfico y crean unas clases muy versatiles para incorporarlas en los documentos que van a mostrar información para que de una forma sencilla los distintos apartados de la página se adapten al pixelaje que tiene cada pantalla.
+
+La incorporación de estos documentos, al igual que los scripts en javascript es dado desde el documento head.php, que todas las páginas cargan gracias a la función include.

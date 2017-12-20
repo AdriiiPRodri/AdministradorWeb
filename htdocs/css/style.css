@@ -1,0 +1,53 @@
+/*Uso general*/
+.body{ background: url('images/fondo.png') #F6F6F6; font-family: 'Droid Sans', Arial,Helvetica Neue,Helvetica,sans-serif;font-size: 12px; font-size: 1.2rem; color:#030303; }
+.a { color: #333333; }
+.a:hover { color: #3C578F; text-decoration: none; }
+.contenedor { background-color: #F6F6F6; margin-bottom: 25px; }
+.cabecera { background-color: #CBCBC4; }
+.footer { width: 100%; background: #ddd; border-top: 1px solid #ccc; position: fixed; bottom: 0; padding-right: 15px; }
+.slider { border:1px #000000 solid; width: 100%; margin-top: -3px; }
+.superior { margin-top: 15px; margin-bottom: 5px; }
+.margen-t-b { margin-top: 5px; margin-bottom: 5px; }
+.inferior { margin-top: 5px; margin-bottom: 15px; }
+
+/*Cabeceras*/
+.caja1  { border: 1px #2B567E solid; border-radius: 5px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; margin-top: 15px; margin-bottom: 5px; color: #F6F6F3; background: #3C578F; text-align: center; -webkit-transition: 1s; transition: 1s; }
+.caja1:hover  { -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75); }
+
+.caja2  { background: #CBCBC4;; margin-top: 15px; color: #000; text-align: center; }
+.caja2:active  {  }
+.caja2:hover  {  }
+
+.oculta { display: none; margin-bottom: 2px;}
+
+/*Uso en el cuerpo*/
+.caja3  { display: table; text-align: center; list-style: none; vertical-align: middle; padding:15%: }
+.caja4  { border: 1px #2B567E solid; border-radius: 5px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; margin-top: 1px; color: #F6F6F3; background: #3C578F; text-align: center; -webkit-transition: 1s; transition: 1s; }
+.caja4:hover { -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.75); }
+.caja5  { background: #2B467E; border-radius: 4px; border: 1px #3C578F solid; padding-bottom: 10px; padding-top: 10px; text-align: center; color: #F6F6F3; margin-top: 2px; }
+.caja5:active  {  }
+.caja5:hover  {  }
+.caja6  {  }
+.caja6:active  {  }
+.caja6:hover  {  }
+
+/*Para diversos usos*/
+.nousada  {  border: 1px #E8E8E8 solid; border-radius: 5px; padding-top: 15px; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; margin-top: 15px; margin-bottom: 5px; color: #000000; text-align: center; background: url('../images/striped.png') #E8E8E8;}
+.banner1 { margin-top: 15px; margin-bottom: 5px; background: url('../images/striped.png') #E8E8E8; border: 1px #E8E8E8 solid; height: 420px; text-align: center; }
+
+/*En formularios*/
+.campo { display: inline-block; padding: 6px 12px; margin-bottom: 5px; margin-top: 5px; font-size: 14px; font-weight: normal; line-height: 1.42857143; background-image: none; border: 1px solid transparent; border-radius: 4px; width: 100%; color: #333333;}
+.envio { padding: 6px 12px; background: #333333; color: #c2c2c2;  margin-bottom: 5px; margin-top: 5px; border: 1px solid transparent; border-radius: 4px; -webkit-transition: 2s; transition: 2s; }
+.envio:hover { background: #CBCBC4; color: #333333;}
+.titulo { color: #F6F6F3; margin-top: 15px; }
+.selectcaja { width:100%; height: 30px; padding: 5px; border : 1px solid #d9d9d9; position: relative; color: #333333; }
+select:focus { outline: none; } /*Para Google Chrome*/
+.area { height: 120px; vertical-align: text-top; overflow: auto; resize: none; }
+
+/*En tablas*/
+.tabla { border: 1px #333333 solid; width: 100%; }
+.atributos { color: #F6F6F3; background: #3C578F; padding: 6px 12px; border: 1px #e8e8e8 solid; font-size: 14px; }
+.valores { background: #c2c2c2; color: #333333; padding: 6px 12px; border: 1px #e8e8e8 solid; font-size: 14px; }
+.botones  { width: 100%; background: transparent; border: transparent; font-family: 'Font-Awesome'; margin-top: 5px; }
